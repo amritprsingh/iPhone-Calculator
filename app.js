@@ -142,8 +142,6 @@ equalEl.addEventListener('click', () => {
     }
 });
 
-
-
 for (let i = 0; i < numberElArray.length; i++){
     const numberEl = numberElArray[i];
     numberEl.addEventListener('click', () => {
@@ -156,12 +154,6 @@ decimalEl.addEventListener('click', () => {
        setStrAsValue(currentValueStr + '.');
     }
 });
-
-
-
-
-
-
 
 const updateTime = () => {
     const currentTime = new Date();
@@ -178,5 +170,3 @@ const updateTime = () => {
 }
 setInterval(updateTime, 1000);
 updateTime();
-
-//48.25 -- 1:50:29 
