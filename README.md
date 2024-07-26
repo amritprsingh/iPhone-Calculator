@@ -6,6 +6,8 @@ Features
 - Result is efficiently displayed as operations are fed and evaluated
 - Color scheme and button layour used matches the iPhone
 
+![iPhone Clone](./iphone.png)
+
 
 
 
